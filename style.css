@@ -1,0 +1,76 @@
+:root {
+  --red: #CD2600;
+  --yellow: #FFAF0F;
+  --white: #FFEDCA;
+  --black: #0A0701;
+}
+
+@font-face {
+  font-family: "Quentin";
+  src: url("assets/quentin_2/Quentin-2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--black);
+}
+
+header {
+  display: flex;
+  padding: 22px 91px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--white);
+
+}
+
+header p {
+  color: var(--red);
+  font-family: 'Quentin';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 34px;
+}
+
+ul li a {
+  color: var(--red);
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.sound_checkbox {
+  display: none;
+}
+
+.icon_unmuted {
+  display: none;
+}
+
+.sound_checkbox:checked + .sound_toggle_btn .icon_muted {
+  display: none;
+}
+
+.sound_checkbox:checked + .sound_toggle_btn .icon_unmuted {
+  display: inline;
+}
+
