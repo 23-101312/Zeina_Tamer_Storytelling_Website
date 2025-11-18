@@ -29,16 +29,64 @@
     <section class="section_1">
       <div id="titles">
       </div>
-      <audio src="assets/intro.mp3" muted></audio>
+      <audio id="intro_audio" src="assets/intro.mp3" muted></audio>
     </section>
 
     <section class="section_2">
-      <div id="building_grid" class="building_grid">
-      </div>
+      <div id="building_grid" class="building_grid"></div>
+      <audio id="crowd_audio" src="assets/crowd.mp3" muted loop></audio>
     </section>
 
+    <section id="window1_section" class="story">
+      <div class="story_frame" onmouseenter="playAudio(0)" onmouseleave="stopAudio(0)">
+        <img id="w1_img" class="story_img" src="" alt="">
+        <p id="w1_text" class="story_text"></p>
+      </div>
+      <div class="story_arrows">
+        <button onclick="prevFrame(0)"><img src="assets/arrow_left.svg" alt=""></button>
+        <button onclick="nextFrame(0)"><img src="assets/arrow_right.svg" alt=""></button>
+      </div>
+      <audio id="w1_audio" muted></audio>
+    </section>
+
+    <section id="window2_section" class="story">
+      <div class="story_frame" onmouseenter="playAudio(1)" onmouseleave="stopAudio(1)">
+        <img id="w2_img" class="story_img" src="" alt="">
+        <p id="w2_text" class="story_text"></p>
+      </div>
+      <div class="story_arrows">
+        <button onclick="prevFrame(1)"><img src="assets/arrow_left.svg" alt=""></button>
+        <button onclick="nextFrame(1)"><img src="assets/arrow_right.svg" alt=""></button>
+      </div>
+      <audio id="w2_audio" muted></audio>
+    </section>
+
+    <section id="window3_section" class="story">
+      <div class="story_frame" onmouseenter="playAudio(2)" onmouseleave="stopAudio(2)">
+        <img id="w3_img" class="story_img" src="" alt="">
+        <p id="w3_text" class="story_text"></p>
+      </div>
+      <div class="story_arrows">
+        <button onclick="prevFrame(2)"><img src="assets/arrow_left.svg" alt=""></button>
+        <button onclick="nextFrame(2)"><img src="assets/arrow_right.svg" alt=""></button>
+      </div>
+      <audio id="w3_audio" muted></audio>
+    </section>
+
+    <section id="window4_section" class="story">
+      <div class="story_frame" onmouseenter="playAudio(3)" onmouseleave="stopAudio(3)">
+        <img id="w4_img" class="story_img" src="" alt="">
+        <p id="w4_text" class="story_text"></p>
+      </div>
+      <div class="story_arrows">
+        <button onclick="prevFrame(3)"><img src="assets/arrow_left.svg" alt=""></button>
+        <button onclick="nextFrame(3)"><img src="assets/arrow_right.svg" alt=""></button>
+      </div>
+      <audio id="w4_audio" muted></audio>
+    </section>
 
   </main>
+  
   
 
 

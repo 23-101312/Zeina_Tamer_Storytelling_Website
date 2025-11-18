@@ -198,5 +198,54 @@ ul li a {
   display: inline-block;
 }
 
+.story {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto;
+  position: relative;
+}
+
+.story_frame {
+  position: relative;
+}
+
+.story_img {
+  width: 100%;
+  display: block;
+}
+
+.story_text {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Quentin";
+  font-size: 24px;
+  color: var(--white);
+  text-align: center;
+}
+
+.story_arrows {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 40px;
+}
+
+.story_arrows button {
+  background: none;
+  border: none;
+  color: var(--yellow);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.story_arrows img {
+  width: 25px;
+}
+
+
 
 
