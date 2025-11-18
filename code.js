@@ -12,3 +12,8 @@ sound_btn.addEventListener("click", () => {
     a.muted = !a.muted;   
   });
 });
+
+
+document.getElementById("titles").innerHTML += `
+<h1>SONDER</h1>
+<h2>Every window holds a story we rarely notice.</h2>`
