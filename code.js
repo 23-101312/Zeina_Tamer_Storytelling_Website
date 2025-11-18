@@ -207,3 +207,32 @@ for (let i = 0; i < stories.length; i++) {
 }
 
 
+document.getElementById("footer_container").innerHTML += `
+<div id="footer_section">
+      <h3>Follow Us</h3>
+      <div class="social_links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+
+    <div id="footer_section">
+      <h3>Contact</h3>
+      <p>Email: info@example.com</p>
+      <p>Phone: +20 123 456 7890</p>
+      <p>Address: Cairo, Egypt</p>
+    </div>
+
+    <div id="footer_section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to stay updated.</p>
+      <form class="newsletter_form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>`
+
+
+document.getElementById("footer_copy").innerHTML += `  © 2025 Your Website. All rights reserved.`  
