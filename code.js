@@ -1,4 +1,5 @@
-document.getElementById("nav_items").innerHTML += `<li><a href="">Building</a></li>
+document.getElementById("nav_items").innerHTML += `
+        <li><a href="#section_2">Building</a></li>
         <li><a href="#window1_section">Window 1</a></li>
         <li><a href="#window2_section">Window 2</a></li>
         <li><a href="#window3_section">Window 3</a></li>
@@ -103,7 +104,7 @@ let stories = [
     {
       img: "assets/2_1.png",
       text: "You never actually hear what I'm trying to say.",
-      audio: "assets/argument1.mp3"
+      audio: "assets/argument1.mp4"
     },
     {
       img: "assets/2_2.png",
